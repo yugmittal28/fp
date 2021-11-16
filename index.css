@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.site-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.site-icon .fa-rocket{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(19, 206, 206);
+    width: 30px;
+    height: 30px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links a{
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: .7rem;
+}
+
+.links a:nth-child(2) {
+    color: rgb(19, 206, 206);
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    font-size: 1.5rem;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.part1{
+    width: 50%;
+}
+
+.part1 .p1{
+    display: flex;
+    font-size: 0.7rem;
+    color: rgb(206, 206, 206);
+    gap: 1rem;
+}
+
+.part1 .p1 .li{
+    font-size: 1rem;
+    font-weight: 900;
+    color: black;
+}
+
+.part1 .ele{
+    font-size: 6rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.part1 .sty{
+    font-size: 1.5rem;
+    width: 60%;
+    margin-bottom: 50px;
+}
+.exp{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.part1 i{
+    width: 40%;
+    margin-left: 2rem;
+    font-size: 3rem;
+    margin-bottom: 70px;
+}
+.card1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(19, 206, 206);
+    border-radius: 10px;
+    width: 80%;
+    padding: 40px 10px;
+    margin-left: 100px;
+    position: relative;
+}
+.card1 .section1{
+    display: flex;
+    margin-left: 20px;
+    width: 60%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 20px;
+    gap: 1rem;
+    color: white;
+}
+.card1 .section2 img{
+    width: 150px;
+    border-radius: 5px ;
+    border: 20px solid white;
+    position: absolute;
+    left: 460px;
+    top: -50px;
+}
+
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.li2{
+    margin-top: 100px;
+    transform: rotate(90deg);
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    width: 45%;
+}
+
+.box1 img {
+    width: 200px;
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+}
+
+.box2 img{
+    width: 300px;
+    height: 500px;
+}
+
+.a{
+    /* background-color: yellow; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.a a{
+    padding: 0 30px;
+}
+.a a i{
+    top: 95vh;
+    position: absolute;
+    color: black;
+    font-size: 1.4rem;
+}
